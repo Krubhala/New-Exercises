@@ -1,0 +1,28 @@
+*{
+    font-family: 'Tiro Kannada', serif;
+    
+}
+ .navbar-items{
+     background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+     height:80px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .navbar-menus{
+     display: grid;
+  grid-template-columns: repeat(5,auto);
+  grid-gap: 20px ;
+  list-style: none;
+
+ }
+
+ .nav-links{
+     text-decoration: none;
+ }
+
+ .nav-links:hover{
+     background-color: aqua;
+     border-radius: 5rem;
+ }
